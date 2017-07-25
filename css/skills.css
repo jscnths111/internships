@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Anton" );
+
+html,body
+{
+    height:100%;
+    background-image:url("../img/HS-Students.jpg");
+}
+a
+{
+    text-decoration:none;
+}
+header
+{
+    background-color:rgb(244, 137, 66,);
+    height:25%;
+    margin-bottom: 3%;
+    opacity:0.;font-size:2.5em;text-align:center;
+    font-family: 'Anton', sans-serif;color:white;
+    text-shadow: 3px 3px black;
+}
+
+nav
+
+{
+   display:flex;
+    background-color:rgb(244, 137, 66.0);
+    height:7%;
+    margin-bottom:3%;
+    font-size:1.4em;align-items:center;
+    text-align: center;
+}
+#first
+{
+    background-color:#f4d142;
+    width:25%;
+    border-style: solid;
+}
+#second
+{
+    background-color:#8ee21f;
+    width:25%;
+    border-style: solid;
+}
+#third
+{
+    background-color:#f4d142;
+    width:25%;
+    border-style: solid;
+    
+}
+#fourth
+{
+    background-color:#8ee21f;
+    width:25%;
+    border-style: solid;
+}
+section
+{
+    font-size:1.1em;
+    background-color: rgb(244, 137, 66);
+    height:70%;border-style:solid;
+    overflow:auto;
+/*page will scroll*/
+}
+footer
+{
+    display:flex;
+    background-color:rgb(244, 137, 66);
+    height:6%;
+    font-size:1.4em;align-items:center;
+    text-align:center;
+ /*footer using consistent colors*/   
+}
+#one
+{background-color:#f4d142;
+    width:33%;
+    border-style: solid;}
+#two
+{background-color:#8ee21f;
+    width:33%;
+    border-style: solid;}
+#three
+{background-color:#f4d142;
+    width:33%;
+    border-style: solid;}
+
+   

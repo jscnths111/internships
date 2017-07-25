@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Anton" );
+
+html,body
+{
+    height:100%;
+    background-image:url("../img/HS-Students.jpg");
+}
+a
+{
+    text-decoration:none;
+}
+a:hover
+ {          
+ background-color:yellow;
+ }
+header
+{
+    /*new font family chosen*/
+    background-color:rgb(244, 137, 66,);
+    height:28%;
+    margin-bottom: 3%;
+    opacity:0.;font-size: 2.5em;text-align:center;
+   font-family: 'Anton', sans-serif;color:white;
+   text-shadow: 3px 3px black;
+}
+nav
+{
+   display:flex;
+    background-color:rgb(244, 137, 66);
+    height:8%;
+    margin-bottom:3%;
+    font-size:1.4em;align-items:center;
+    text-align: center;
+}
+#first
+{
+    background-color:#f4d142;
+    width:25%;
+    border-style: solid;
+}
+#second
+{
+    background-color:#8ee21f;
+    width:25%;
+    border-style: solid;
+}
+#third
+{
+    background-color:#f4d142;
+    width:25%;
+    border-style: solid;
+}
+    
+#fourth
+{
+background-color:#8ee21f;
+    width:25%;
+    border-style: solid;
+}
+section
+{
+    display:flex; 
+    flex-wrap:wrap;
+    justify-content: space-around;
+    background-color: rgb(244, 137, 66);
+    height:55%;
+    max-width:60%;
+    margin:auto;
+     
+/*each box has an image*/
+}
+#box1
+{
+    background-color:pink;
+    width:25%;height:40%;
+    background-image:url("../img/art2.jpg");
+    background-size:100% 100%;
+    border-style:  solid;
+}
+#box2
+{
+    background-color:blue;
+    width:25%;height:40%;
+    background-image: url("../img/education2.jpg");
+    background-size:100% 100%;
+    border-style:  solid;
+}
+#box3
+{
+    background-color:red;
+    width:25%;height:40%;
+    background-image: url("../img/healthcare.jpg");
+    background-size:100% 100%;
+    border-style: solid;
+}
+#box4
+{
+    background-color:green;
+    width:25%;height:40%;
+    background-image: url("../img/lawenforcement2.jpg");
+    background-size: 100% 100%;
+    border-style:  solid;
+}
+#box5
+{    
+    background-color:grey;
+    width:25%;height:40%;
+    background-image: url("../img/STEM3.jpg");
+    background-size: 100% 100%;
+    border-style:  solid;
+    
+}
+#box6
+{
+    background-color:white;
+    width:25%;height:40%;
+    background-image: url("../img/legal1.jpg");
+    background-size: 100% 100%;
+    border-style:  solid;
+}
+footer
+{
+    display:flex;
+    background-color:rgb(244, 137, 66);
+    height:7%;
+    font-size:1.4em;align-items:center;
+    text-align:center;
+}
+ #one
+{
+    background-color:#f4d142;
+    width:33%;
+    border-style: solid;
+}
+#two
+{
+    background-color:#8ee21f;
+    width:33%;
+    border-style: solid;
+}
+#three
+{
+    background-color:#f4d142;
+    width:33%;
+    border-style: solid;
+ }
+   
